@@ -1,4 +1,4 @@
-public class Buku_26 {
+public class Buku26 {
     String judul, pengarang;
     int halaman, stok, harga;
 
@@ -7,7 +7,7 @@ public class Buku_26 {
         System.out.println("Pengarang: " + pengarang);
         System.out.println("Jumlah halaman: " + halaman);
         System.out.println("Sisa stok: " + stok);
-        System.out.println("Harga: " + harga);
+        System.out.println("Harga: Rp " + harga);
     }
     
     void terjual(int jml) {
