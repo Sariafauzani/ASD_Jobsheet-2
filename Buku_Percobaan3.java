@@ -54,5 +54,9 @@ public class Buku_Percobaan3 {
             Buku bk2 = new Buku("Self Reward", "Maheera Ayesha", 160, 29, 59000);
             bk2.terjual(11);
             bk2.tampilInformasi();
+
+            Buku BukuSaria = new Buku("Hello", "Tereliye", 110, 10, 70000);
+            BukuSaria.terjual(8);
+            BukuSaria.tampilInformasi();
     }
 }
